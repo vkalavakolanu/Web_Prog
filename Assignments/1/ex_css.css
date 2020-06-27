@@ -1,0 +1,128 @@
+body{
+    background-image: url("background.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: rgb(68, 66, 66);
+    color: rgb(233, 231, 229);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    font-family:'Segoe UI';
+}
+#menutab{
+    height: 20%;
+    width: 100%;
+    
+}
+#content{
+    margin-top: 75px;
+}
+
+img{
+    float: right;
+    margin-right: 320px;
+    height:390px;
+}
+#table1{
+    float: left;
+    margin-left: 300px;
+    text-align: initial;
+    
+}
+.special{
+    color: red;
+    font-weight: bold;
+}
+#quote{
+    text-decoration: double;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(197, 98, 17) ;
+    text-align: center;
+}
+#table2{
+    margin-top: 20px;;
+    margin-left: 300px;
+    float:left;
+    width: 60%;
+
+   
+}
+#table2,#table2 th,#table2 tr,#table2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+.odd{
+    background-color: rgb(182, 179, 179);
+}
+.even{
+    background-color:white;
+
+}
+
+.tabs{
+    background-color: rgb(68, 66, 66);
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+
+}
+
+.tabs:hover, a:hover{
+    background-color:rgb(116, 112, 112); 
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
+#name{
+    color: rgb(245, 70, 7);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+#resbody{
+    background-image: none;
+   
+}
+h2,h4,h5{
+    text-align: center;
+    height: 5px;
+}
+.sidehead{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.righthead{
+    float: right;
+    margin-top: 0px;
+    
+    font-weight: bold;
+}
+
+h3{
+    margin-left: 0px;
+    height: 5px;
+}
